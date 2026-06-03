@@ -1,0 +1,17 @@
+body {
+  background: black;
+  color: white;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+}
+
+.green {
+  background: green;
+}
+
+/* .pink { */
+/*   background: pink; */
+/* } */

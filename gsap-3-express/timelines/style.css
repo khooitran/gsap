@@ -1,0 +1,38 @@
+body {
+  background: black;
+  color: white;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0px 0px 20px;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.purple {
+  background: purple;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.red {
+  background: red;
+}
+
+.pink {
+  background: pink;
+}
