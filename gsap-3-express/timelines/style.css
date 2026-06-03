@@ -36,3 +36,10 @@ h1 {
 .pink {
   background: pink;
 }
+
+#nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 20px;
+}
