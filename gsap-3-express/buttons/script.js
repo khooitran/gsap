@@ -11,6 +11,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
     item.addEventListener("mouseleave", () => { tl.reverse() });
   });
 
+  const button = document.querySelector("button");
+  const anim = gsap.to(button, { scale: 1, repeat: -1, yoyo: true, paused: true })
+  button.addEventListener("mouseenter", () => anim.restart())
+  button.addEventListener("mouseleave", () => {
+    anim.pause();
+    gsap.to(button, { scale: 0.75 });
+  })
 
 });
 
